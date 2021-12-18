@@ -12,18 +12,6 @@ function App() {
   const [time, setTime] = useState(0);
   const [watchOn, setWatchOn] = useState(false);
   const [status, setStatus] = useState(0);
-  const waitBtn = document.getElementsByClassName('wait')
-  const click$ = fromEvent(waitBtn, 'click')
-
-  const doubleClick$ = click$.pipe(
-      buffer(
-          click$.pipe(debounceTime(300))
-      ),
-      map(list => {
-        return list.length;
-      }),
-      filter(x => x === 2),
-  )
 
   useEffect(() => {
 
@@ -54,15 +42,10 @@ function App() {
 
   const handleWait = () => {
 
-    doubleClick$.subscribe(()=>{
-      console.log('doubleclick');
-
         if (time !== 0) {
           setWatchOn(false);
         }
         setStatus(2);
-
-    })
   }
 
 

@@ -13,7 +13,7 @@ function BtnComponent({ start, wait, stop, reset, status}) {
                   <button className="stopwatch-btn stopwatch-btn-red"
                           onClick={stop}>Stop</button>
 
-                  <button className="stopwatch-btn wait stopwatch-btn-yel"
+                  <button className="stopwatch-btn stopwatch-btn-yel"
                           onClick={wait} >Wait</button>
 
                   <button className="stopwatch-btn stopwatch-btn-grn"
@@ -26,7 +26,7 @@ function BtnComponent({ start, wait, stop, reset, status}) {
                   <button className="stopwatch-btn stopwatch-btn-blu"
                           onClick={start}>Start</button>
 
-                  <button className="stopwatch-btn wait stopwatch-btn-yel"
+                  <button className="stopwatch-btn stopwatch-btn-yel"
                           onClick={wait}>Wait</button>
 
                   <button className="stopwatch-btn stopwatch-btn-grn"
