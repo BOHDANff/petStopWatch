@@ -1,3 +1,3 @@
-# Stopwatch react app
-## App link: https://bohdanff.github.io/stopwatch/
+# Stopwatch react test app with double click
+
 
