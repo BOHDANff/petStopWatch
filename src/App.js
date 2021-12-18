@@ -50,6 +50,7 @@ function App() {
   const handleReset = () => {
     setTime(0);
     setWatchOn(true)
+    setStatus(1)
   }
 
   const handleWait = () => {
