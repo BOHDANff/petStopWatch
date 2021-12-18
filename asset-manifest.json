@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/petStopWatch/static/css/main.ea272afe.chunk.css",
-    "main.js": "/petStopWatch/static/js/main.056f4981.chunk.js",
-    "main.js.map": "/petStopWatch/static/js/main.056f4981.chunk.js.map",
+    "main.js": "/petStopWatch/static/js/main.d5bffb5f.chunk.js",
+    "main.js.map": "/petStopWatch/static/js/main.d5bffb5f.chunk.js.map",
     "runtime-main.js": "/petStopWatch/static/js/runtime-main.e781db51.js",
     "runtime-main.js.map": "/petStopWatch/static/js/runtime-main.e781db51.js.map",
     "static/js/2.b8010a87.chunk.js": "/petStopWatch/static/js/2.b8010a87.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e781db51.js",
     "static/js/2.b8010a87.chunk.js",
     "static/css/main.ea272afe.chunk.css",
-    "static/js/main.056f4981.chunk.js"
+    "static/js/main.d5bffb5f.chunk.js"
   ]
 }
